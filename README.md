@@ -2,15 +2,15 @@
 
 This repository hosts Secde app legal documents via GitHub Pages.
 
-Published paths (expected by the app/store metadata):
+Published paths (project site):
 
-- `/privacy/`
-- `/terms/`
-- `/support/`
-- `/tr/privacy/` and `/tr/terms/`
-- `/ar/privacy/` and `/ar/terms/`
-- `/de/privacy/` and `/de/terms/`
-- `/fr/privacy/` and `/fr/terms/`
+- `/secde-legal/privacy/`
+- `/secde-legal/terms/`
+- `/secde-legal/support/`
+- `/secde-legal/tr/privacy/` and `/secde-legal/tr/terms/`
+- `/secde-legal/ar/privacy/` and `/secde-legal/ar/terms/`
+- `/secde-legal/de/privacy/` and `/secde-legal/de/terms/`
+- `/secde-legal/fr/privacy/` and `/secde-legal/fr/terms/`
 
 ## Deploy
 
