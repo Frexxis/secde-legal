@@ -26,7 +26,7 @@
         <h1>Gizlilik Politikasi</h1>
         <p class="meta">Dil: TR · Diger diller: <a href="/secde-legal/privacy/">EN</a> · <a href="/secde-legal/ar/privacy/">AR</a> · <a href="/secde-legal/de/privacy/">DE</a> · <a href="/secde-legal/fr/privacy/">FR</a></p>
         <pre>Secde - Gizlilik Politikasi
-Son guncelleme: 2026-02-15
+Son guncelleme: 2026-03-11
 
 Bu uygulama gizlilik odakli bir yaklasimla tasarlanmistir.
 
@@ -38,40 +38,48 @@ Bu uygulama gizlilik odakli bir yaklasimla tasarlanmistir.
 - Cihaz ici tercihler: secili sehir, dil, hesaplama yontemi, bildirim tercihleri, zikir/takip/okuma durumu gibi uygulama verileri.
 - Opsiyonel hassas konum (izin bazli): en yakin sehir onerisi ve kibla yonu destegi.
 - Bildirim ayarlari ve zamanlanmis hatirlatma metaverisi.
+- AI Hoca bulut AI acikken gonderilen yazi verileri: kullanici sorusu, sinirli son konusma gecmisi ve baglam ozeti.
+- AI Hoca sesli kullanim secildiginde islenen ses verileri: speech-to-text icin yuklenen ses, text-to-speech istekleri veya realtime ses oturumu trafigi.
 - Bu surumde reklam aciksa, Google AdMob tarafinda reklam/teknik kimlikler ve kullanim sinyalleri islenebilir.
 - Uygulama online icerik cekerken, icerik saglayicilar tarafinda IP, zaman damgasi ve user-agent gibi ag metaverileri islenebilir.
 
 3) Isleme amaclari
 - Namaz vakitleri, Ramazan ozellikleri, kibla, Kuran ve ilgili icerikleri sunmak.
-- Uygulama ayarlarini ve hatirlaticilari calisir durumda tutmak.
+- AI Hoca yazi rehberligini, opsiyonel ses ozelliklerini ve opsiyonel kisisellestirilmis rehberligi sunmak.
+- Uygulama ayarlarini, hatirlaticilari ve cihazda saklanan konusma gecmisini calisir durumda tutmak.
 - Ucretsiz surumu reklam ile desteklemek (aktifse).
 - Ucuncu taraf servislerde temel guvenlik/suistimal onleme mekanizmalarini calistirmak.
 
 4) Uygulamada kullanilan ucuncu taraf servisler
 - Google AdMob / Google UMP (reklam ve onay yonetimi)
+- Gemini / Google AI servisleri (yapilandirilmis AI Hoca metin yolu)
+- OpenAI servisleri (yapilandirilmis speech-to-text ve realtime ses yolu)
+- ElevenLabs (yapilandirilmis text-to-speech yolu)
 - api.alquran.cloud (Kuran metni/meal)
 - cdn.islamic.network / EveryAyah (Kuran ses icerigi)
 - hadeethenc.com (hadis icerigi)
 - raw.githubusercontent.com (dua kaynak verisi)
 - YouTube acik feed/sayfalari (faydali icerik listeleri)
 
-5) Takip, onay ve ATT
+5) Takip, onay ve kontroller
 - Hukuken gerekli oldugunda reklam isteklerinden once Google UMP onay akisi calisir.
 - iOS App Tracking Transparency (ATT), reklam kisisellestirme icin gerekli oldugunda istenir.
 - ATT veya onay reddedilse de uygulamanin temel kullanimi devam eder.
-- Gizlilik tercihleri uygulama ici Ayarlar ekranindan yeniden yonetilebilir.
+- AI Hoca bulut isleme ve kisisellestirilmis rehber tercihleri uygulama ici Ayarlar ekranindan yonetilebilir.
+- Mikrofon izni opsiyoneldir; sadece kullanici AI Hoca ses modunu baslattiginda kullanilir.
 
 6) Veri paylasimi ve satisi
 - Birinci taraf olarak kisisel veri satmiyoruz.
-- Veri, yalnizca uygulama islevi, reklam olcum/teslimi ve icerik teslimi icin yukaridaki ucuncu taraflarla paylasilabilir.
+- Veri, yalnizca uygulama islevi, AI isleme, reklam olcum/teslimi, etkinse analytics ve icerik teslimi icin yukaridaki ucuncu taraflarla paylasilabilir.
 
 7) Saklama ve silme
 - Verilerin buyuk bolumu cihazda tutulur; uygulama verisi temizlenene veya uygulama kaldirilana kadar saklanir.
+- Uygulamanin kaydettigi AI Hoca konusma gecmisi, uygulama verisi temizlenene veya uygulama kaldirilana kadar cihazda saklanir.
 - Ucuncu taraf saklama sureleri ilgili saglayicinin kendi politikasina tabidir.
 - Birinci taraf hesap backend'i olmadigi icin yerel veri silmede ana yontem uygulama verisi temizleme/kaldirmadir.
 
 8) Haklariniz ve kontroller
-- Konum/Bildirim/Takip izinlerini iOS Ayarlar'dan istediginiz zaman geri cekebilirsiniz.
+- Konum/Bildirim/Takip/Mikrofon izinlerini sistem ayarlarindan istediginiz zaman geri cekebilirsiniz.
 - Gizlilik talepleri icin Smnkurt@outlook.com adresine yazabilirsiniz.
 - Uygulanabilir hukuka (KVKK/GDPR dahil) gore erisim, duzeltme, silme ve itiraz haklariniz olabilir.
 
@@ -80,7 +88,7 @@ Bu uygulama gizlilik odakli bir yaklasimla tasarlanmistir.
 - Bir cocugun ucuncu taraf servisler uzerinden veri gonderdigi dusunuluyorsa bizimle ve ilgili saglayiciyla iletisime gecin.
 
 10) Uluslararasi veri aktarimi
-- Ucuncu taraf saglayicilar verileri kendi hukuki guvenceleri kapsaminda farkli ulkelerde isleyebilir.
+- Ucuncu taraf saglayicilar verileri kendi hukuki guvenceleri kapsaminda farkli ulkelerde isleyebilir. Buna AI Hoca ozelliklerinde kullanilan AI isleyicileri de dahil olabilir.
 
 11) Politika guncellemeleri
 - Bu politika zaman zaman guncellenebilir.
