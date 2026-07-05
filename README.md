@@ -21,4 +21,14 @@ The workflow deploys `public/`.
 
 ## Update legal text
 
-Edit the relevant HTML page under `public/` and redeploy by pushing to `main`.
+Do not edit `public/` by hand.
+
+Canonical legal text lives in the main app repo under `legal/canonical/`.
+
+From the main repo root, regenerate both bundled app assets and this site with:
+
+```bash
+node scripts/generate_legal_outputs.mjs
+```
+
+Then commit the generated changes and redeploy by pushing to `main`.
